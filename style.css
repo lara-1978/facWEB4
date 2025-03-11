@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+body {
+    scroll-behavior: smooth;
+    background: #020a18;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+}
+
+img {
+    max-width: 100;
+    display: block;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1146px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 39px;
+    background: #0A121F;
+    padding-bottom: 39px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.header_link {
+    font-style: normal;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.main {
+    margin-bottom: 197px;
+}
+
+.main-content {
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 128px;   
+}
+
+.content_info {
+    max-width: 604px;
+}
+
+.content-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #3a68b8;
+    margin-bottom: 10px;
+}
+
+.content-subtitle {
+    font-style:normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 130%;
+    margin-bottom: 40px;
+    color:#fff;
+
+}
+
+.content-text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    opacity: 0.7;
+    margin-bottom: 50px;
+    max-width: 558px;
+    color:#fff;
+}
+
+.content-btn-box {
+    display: flex;
+    gap: 20px;
+}
+
+.content-btn {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    background: #3a68b8;
+    border-radius: 5px;
+    padding: 15px 30px;
+    outline: none;
+}
+
+.content-btn-watch {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.content-pict {
+    width: 414px;
+    height: 415px;
+}
+
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 71px;
+    justify-content: space-between;
+}
